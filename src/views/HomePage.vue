@@ -16,6 +16,12 @@
     
 <script setup>
 
+import { onMounted } from 'vue';
+onMounted(() => {
+  console.log("mounted")
+  document.title = "Landing Page"
+});
+
 </script>
 
 <style>
