@@ -10,8 +10,6 @@
     </div>
    <img class="holder-img" src=../assets/definetiveImage.svg>
 
-
-
 </body>  
 </template>  
 <script setup>
