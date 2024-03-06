@@ -55,4 +55,47 @@ flex-grow: 0;
 text-align: center;
   
 width: auto;
+
+
 }
+
+.holder{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-itens: center;
+}
+
+.holder-left{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-itens: flex-end;
+  heigth: 200px;
+  width: 650px;
+  text-align: justify; 
+}
+.holder-img{
+  position: relative;
+  heigth: 467.47px;
+  width: 606px;
+}
+
+.holder-texto{
+  font-family: Montserrat;
+}
+
+
+.holder-botao-saiba-mais{
+  background-color: #2AA8DB;
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+  border-radius: 32px;
+  width: 144px;
+  heigth: 5px;
+  color: white;
+}
+
+
