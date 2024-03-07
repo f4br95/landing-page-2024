@@ -1,4 +1,10 @@
 <script setup>
+
+import Homepage from './views/Homepage.vue'
+import Contact from './views/Contact.vue'
+import Portfolio from './views/Portfolio.vue'
+
+
 </script>
 
 
@@ -19,10 +25,7 @@
             <RouterLink to="/contact" class="routerlink">CONTATO</RouterLink>
           </nav>
           
-        </header>
- 
- 
-
+    </header>
   <RouterView />
 </template>
 
