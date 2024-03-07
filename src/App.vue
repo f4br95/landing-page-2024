@@ -4,7 +4,14 @@ import Homepage from './views/Homepage.vue'
 import Contact from './views/Contact.vue'
 import Portfolio from './views/Portfolio.vue'
 
+import { onMounted } from 'vue';
+onMounted(() => {
+  document.title = "Landing Page"
+  console.log('mounted')
+});
 
+
+  
 </script>
 
 

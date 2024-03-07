@@ -1,10 +1,13 @@
-.header {
+html{ min-height: 100vh;
+
+
+}.header {
     width: 100%;
     line-height: 1.5;
-    max-height: 100vh;
     display: flex;
     justify-content:  space-between;
     align-items: center;
+    position: fixed;
   }
   
   .logo {
@@ -25,7 +28,9 @@
     padding: 0;
     background-color: #f5f5f5;
     width: 100%;
+  min-height: 100vh;
 
+  background-color: #eaecf3
   
 }
 
@@ -40,15 +45,9 @@ font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 22px;
-/* identical to box height */
-
 color: #2F2E41;
-
-
-/* Inside auto layout */
 flex: none;
 flex-grow: 0;
-
 }
 
 .routerlink{
@@ -84,6 +83,8 @@ width: auto;
 
 .holder-texto{
   font-family: Montserrat;
+  color: #2F2E41;
+
 }
 
 
